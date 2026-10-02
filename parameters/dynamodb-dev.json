@@ -1,0 +1,62 @@
+[
+  {
+    "ParameterKey": "ProjectName",
+    "ParameterValue": "myapp"
+  },
+  {
+    "ParameterKey": "TableBaseName",
+    "ParameterValue": "users-table"
+  },
+  {
+    "ParameterKey": "Environment",
+    "ParameterValue": "devl"
+  },
+  {
+    "ParameterKey": "CiSuffix",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "BillingMode",
+    "ParameterValue": "PAY_PER_REQUEST"
+  },
+  {
+    "ParameterKey": "PartitionKeyName",
+    "ParameterValue": "UserID"
+  },
+  {
+    "ParameterKey": "PartitionKeyType",
+    "ParameterValue": "S"
+  },
+  {
+    "ParameterKey": "SortKeyName",
+    "ParameterValue": "CreatedAt"
+  },
+  {
+    "ParameterKey": "SortKeyType",
+    "ParameterValue": "S"
+  },
+  {
+    "ParameterKey": "EnableStreams",
+    "ParameterValue": "true"
+  },
+  {
+    "ParameterKey": "StreamViewType",
+    "ParameterValue": "NEW_AND_OLD_IMAGES"
+  },
+  {
+    "ParameterKey": "EnablePointInTimeRecovery",
+    "ParameterValue": "true"
+  },
+  {
+    "ParameterKey": "EnableTTL",
+    "ParameterValue": "false"
+  },
+  {
+    "ParameterKey": "LSI1Enabled",
+    "ParameterValue": "false"
+  },
+  {
+    "ParameterKey": "GSI1Enabled",
+    "ParameterValue": "false"
+  }
+]

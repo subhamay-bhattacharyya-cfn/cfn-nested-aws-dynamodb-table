@@ -1,0 +1,94 @@
+[
+  {
+    "ParameterKey": "ProjectName",
+    "ParameterValue": "myapp"
+  },
+  {
+    "ParameterKey": "TableBaseName",
+    "ParameterValue": "users-table"
+  },
+  {
+    "ParameterKey": "Environment",
+    "ParameterValue": "stag"
+  },
+  {
+    "ParameterKey": "CiSuffix",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "BillingMode",
+    "ParameterValue": "PROVISIONED"
+  },
+  {
+    "ParameterKey": "ProvisionedReadCapacity",
+    "ParameterValue": "10"
+  },
+  {
+    "ParameterKey": "ProvisionedWriteCapacity",
+    "ParameterValue": "10"
+  },
+  {
+    "ParameterKey": "PartitionKeyName",
+    "ParameterValue": "UserID"
+  },
+  {
+    "ParameterKey": "PartitionKeyType",
+    "ParameterValue": "S"
+  },
+  {
+    "ParameterKey": "SortKeyName",
+    "ParameterValue": "CreatedAt"
+  },
+  {
+    "ParameterKey": "SortKeyType",
+    "ParameterValue": "S"
+  },
+  {
+    "ParameterKey": "EnableStreams",
+    "ParameterValue": "true"
+  },
+  {
+    "ParameterKey": "StreamViewType",
+    "ParameterValue": "NEW_AND_OLD_IMAGES"
+  },
+  {
+    "ParameterKey": "EnablePointInTimeRecovery",
+    "ParameterValue": "true"
+  },
+  {
+    "ParameterKey": "EnableTTL",
+    "ParameterValue": "false"
+  },
+  {
+    "ParameterKey": "LSI1Enabled",
+    "ParameterValue": "true"
+  },
+  {
+    "ParameterKey": "LSI1AttributeName",
+    "ParameterValue": "Status"
+  },
+  {
+    "ParameterKey": "LSI1AttributeType",
+    "ParameterValue": "S"
+  },
+  {
+    "ParameterKey": "GSI1Enabled",
+    "ParameterValue": "true"
+  },
+  {
+    "ParameterKey": "GSI1PartitionKeyName",
+    "ParameterValue": "Email"
+  },
+  {
+    "ParameterKey": "GSI1PartitionKeyType",
+    "ParameterValue": "S"
+  },
+  {
+    "ParameterKey": "GSI1ReadCapacity",
+    "ParameterValue": "5"
+  },
+  {
+    "ParameterKey": "GSI1WriteCapacity",
+    "ParameterValue": "5"
+  }
+]

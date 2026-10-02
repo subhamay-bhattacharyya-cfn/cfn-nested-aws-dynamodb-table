@@ -1,0 +1,132 @@
+[
+  {
+    "ParameterKey": "ProjectName",
+    "ParameterValue": "myapp",
+    "Description": "Project name to use as a table prefix (lowercase letters, numbers, hyphens only)"
+  },
+  {
+    "ParameterKey": "TableBaseName",
+    "ParameterValue": "users-table",
+    "Description": "Base name for the DynamoDB table (account ID, environment, and region will be appended)"
+  },
+  {
+    "ParameterKey": "Environment",
+    "ParameterValue": "devl",
+    "Description": "Deployment environment: devl, stag, prod"
+  },
+  {
+    "ParameterKey": "CiSuffix",
+    "ParameterValue": "",
+    "Description": "Optional CI suffix to append to the table name"
+  },
+  {
+    "ParameterKey": "BillingMode",
+    "ParameterValue": "PAY_PER_REQUEST",
+    "Description": "Billing mode: PAY_PER_REQUEST (on-demand) or PROVISIONED (capacity-based)"
+  },
+  {
+    "ParameterKey": "ProvisionedReadCapacity",
+    "ParameterValue": "5",
+    "Description": "Read capacity units - only used if BillingMode is PROVISIONED (1-40000)"
+  },
+  {
+    "ParameterKey": "ProvisionedWriteCapacity",
+    "ParameterValue": "5",
+    "Description": "Write capacity units - only used if BillingMode is PROVISIONED (1-40000)"
+  },
+  {
+    "ParameterKey": "PartitionKeyName",
+    "ParameterValue": "PK",
+    "Description": "Name of the partition key attribute (1-255 chars)"
+  },
+  {
+    "ParameterKey": "PartitionKeyType",
+    "ParameterValue": "S",
+    "Description": "Partition key data type: S (String), N (Number), B (Binary)"
+  },
+  {
+    "ParameterKey": "SortKeyName",
+    "ParameterValue": "SK",
+    "Description": "Optional sort key attribute name (leave empty for no sort key)"
+  },
+  {
+    "ParameterKey": "SortKeyType",
+    "ParameterValue": "S",
+    "Description": "Sort key data type: S (String), N (Number), B (Binary)"
+  },
+  {
+    "ParameterKey": "EnableStreams",
+    "ParameterValue": "true",
+    "Description": "Enable DynamoDB Streams: true or false"
+  },
+  {
+    "ParameterKey": "StreamViewType",
+    "ParameterValue": "NEW_AND_OLD_IMAGES",
+    "Description": "Stream information: KEYS_ONLY, NEW_IMAGE, OLD_IMAGE, or NEW_AND_OLD_IMAGES"
+  },
+  {
+    "ParameterKey": "EnablePointInTimeRecovery",
+    "ParameterValue": "true",
+    "Description": "Enable point-in-time recovery: true or false"
+  },
+  {
+    "ParameterKey": "EnableTTL",
+    "ParameterValue": "false",
+    "Description": "Enable Time-to-Live (TTL): true or false"
+  },
+  {
+    "ParameterKey": "TTLAttributeName",
+    "ParameterValue": "ExpirationTime",
+    "Description": "Attribute name to use for TTL (only used if EnableTTL is true)"
+  },
+  {
+    "ParameterKey": "LSI1Enabled",
+    "ParameterValue": "false",
+    "Description": "Enable Local Secondary Index 1: true or false (requires sort key on base table)"
+  },
+  {
+    "ParameterKey": "LSI1AttributeName",
+    "ParameterValue": "LSI1SK",
+    "Description": "Sort key attribute name for LSI1 (only used if LSI1Enabled is true)"
+  },
+  {
+    "ParameterKey": "LSI1AttributeType",
+    "ParameterValue": "S",
+    "Description": "Data type for LSI1 sort key: S (String), N (Number), B (Binary)"
+  },
+  {
+    "ParameterKey": "GSI1Enabled",
+    "ParameterValue": "false",
+    "Description": "Enable Global Secondary Index 1: true or false"
+  },
+  {
+    "ParameterKey": "GSI1PartitionKeyName",
+    "ParameterValue": "GSI1PK",
+    "Description": "Partition key attribute name for GSI1 (only used if GSI1Enabled is true)"
+  },
+  {
+    "ParameterKey": "GSI1PartitionKeyType",
+    "ParameterValue": "S",
+    "Description": "Data type for GSI1 partition key: S (String), N (Number), B (Binary)"
+  },
+  {
+    "ParameterKey": "GSI1SortKeyName",
+    "ParameterValue": "",
+    "Description": "Optional sort key attribute name for GSI1 (leave empty if not needed)"
+  },
+  {
+    "ParameterKey": "GSI1SortKeyType",
+    "ParameterValue": "S",
+    "Description": "Data type for GSI1 sort key: S (String), N (Number), B (Binary)"
+  },
+  {
+    "ParameterKey": "GSI1ReadCapacity",
+    "ParameterValue": "5",
+    "Description": "Read capacity for GSI1 - only used if BillingMode is PROVISIONED (1-40000)"
+  },
+  {
+    "ParameterKey": "GSI1WriteCapacity",
+    "ParameterValue": "5",
+    "Description": "Write capacity for GSI1 - only used if BillingMode is PROVISIONED (1-40000)"
+  }
+]

@@ -26,13 +26,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/subhamay-bhattacharyya-cfn/cloudformation-template.git"
+    "url": "git+https://github.com/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table.git"
   },
   "author": "Subhamay Bhattacharyya",
   "license": "MIT",
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/subhamay-bhattacharyya-cfn/cloudformation-template/issues"
+    "url": "https://github.com/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table/issues"
   },
-  "homepage": "https://github.com/subhamay-bhattacharyya-cfn/cloudformation-template#readme"
+  "homepage": "https://github.com/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table#readme"
 }
