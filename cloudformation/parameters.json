@@ -1,6 +1,6 @@
 {
   "ProjectName": "subhamay",
-  "DynamoDBTableBaseName": "cfn-bucket-test",
+  "TableBaseName": "cfn-bucket-test",
   "Environment": "devl",
   "CiSuffix": ""
 }
