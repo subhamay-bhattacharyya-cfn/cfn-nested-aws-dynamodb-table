@@ -13,7 +13,7 @@
 [![Files](https://img.shields.io/github/directory-file-count/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table)](https://github.com/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table)&nbsp;[![Repo Size](https://img.shields.io/github/repo-size/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table)](https://github.com/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table)&nbsp;[![Release Date](https://img.shields.io/github/release-date/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table)](https://github.com/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table/releases)
 
 <!-- Row 5: Custom Metrics -->
-[![Custom Endpoint](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/bsubhamay/f55f73ac88992d4bd5c9835ee5fd70b6/raw/cfn-nested-aws-dynamodb-tablejson)](https://gist.github.com/subhamay-bhattacharyya/f55f73ac88992d4bd5c9835ee5fd70b6)
+[![Custom Endpoint](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/bsubhamay/613e14910bfe3a6ead6dbff3aa5851e6/raw/cfn-nested-aws-dynamodb-table.json)](https://gist.github.com/subhamay-bhattacharyya/613e14910bfe3a6ead6dbff3aa5851e6)
 
 This repository contains a nested CloudFormation template for deploying DynamoDB tables with flexible configuration, security best practices, and support for advanced features like streams, indexes, and encryption.
 
