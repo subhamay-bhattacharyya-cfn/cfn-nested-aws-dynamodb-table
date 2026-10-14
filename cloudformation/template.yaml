@@ -69,7 +69,7 @@ Parameters:
 
   SortKeyName:
     Type: String
-    Default: SK
+    Default: ''
     Description: Name of the sort key attribute (leave empty if not needed)
     MaxLength: 255
 
