@@ -1,4 +1,4 @@
-# CloudFormation DynamoDB Table Template Repository
+# CloudFormation Nested Stack Template :  DynamoDB Table
 
 <!-- Row 1: Status - Most Important -->
 [![Release](https://github.com/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table/actions/workflows/release.yaml/badge.svg)](https://github.com/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table)&nbsp;[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table)&nbsp;[![Issues](https://img.shields.io/github/issues/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table)](https://github.com/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table/issues)&nbsp;[![Last Commit](https://img.shields.io/github/last-commit/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table)](https://github.com/subhamay-bhattacharyya-cfn/cfn-nested-aws-dynamodb-table/commits)

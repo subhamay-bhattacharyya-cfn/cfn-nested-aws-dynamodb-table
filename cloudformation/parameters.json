@@ -1,6 +1,6 @@
 {
-  "ProjectName": "subhamay",
-  "TableBaseName": "cfn-bucket-test",
+  "ProjectName": "cfn-nested",
+  "TableBaseName": "cfn-dynamodb-table",
   "Environment": "devl",
   "CiSuffix": ""
 }
