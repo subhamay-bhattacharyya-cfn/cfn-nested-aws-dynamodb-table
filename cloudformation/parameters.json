@@ -1,6 +1,6 @@
 {
   "ProjectName": "cfn-nested",
-  "TableBaseName": "cfn-dynamodb-table",
+  "TableBaseName": "dynamodb-table",
   "Environment": "devl",
   "CiSuffix": ""
 }
